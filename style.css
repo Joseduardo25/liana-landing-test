@@ -1,0 +1,60 @@
+body {
+  background:#ffff;
+  margin: 0;
+}
+
+.header-nav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.header-content {
+  background: chartreuse;
+}
+
+.grid-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background: chocolate;
+}
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  background: chartreuse;
+}
+
+.logo, .logo2 {
+  height: 25px;
+}
+
+.foto {
+  height: 250px;
+}
+
+.title {
+  color: red;
+}
+
+.text {
+  color: blue;
+}
+
+li {
+  color:blue;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+input {
+  align-items: center;
+}
+
