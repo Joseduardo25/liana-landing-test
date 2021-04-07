@@ -8,40 +8,54 @@
 
     <!--STYLE CSS-->
     <link rel="stylesheet" href="./style.css">
+    
     <!--FONT AWESOME-->
     <script src="https://kit.fontawesome.com/d5e281a662.js" crossorigin="anonymous"></script>
+    
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+  
   </head>
   <body>
 
     <!--HEADER-->
     <header>
       <div class="header">
-        <div class="header-nav">
-          
+        <div class="header-content_1 grid-3" >
+          <div class="header-content_1--img">
             <img src="./imagen/logo.png" alt="eduardo logo" class="logo">
-          
-          
-            <p>Liana<i class="fas fa-heart"></i>Marketers</p>
-          
-        
-            <button class="button-white">Contact us</button>
-          
+          </div>
+          <div class="header-content_1--p">
+            <p>liana<i class="fas fa-heart"></i>marketers</p>
+          </div>
+          <div class="header-content_1--button">
+            <button class="button-white">Contact us ></button>
+          </div>
         </div>
-        <div class="header-content">
-          <h2 class="title">Email Marketing tool to empower your business</h2>
-          <p class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic reiciendis 
-            expedita excepturi modi vero totam?</p>
-          <button class="button-green">Book a personalized demo</button>
+        <div class="header-content_2">
+          <div class="content">
+            <h2 class="title">Email Marketing tool to empower your business</h2>
+            <p class="text">Our email marketing software is designed to meet all
+              requirements of modern digital marketing
+            </p>
+            <button class="button-green">Book a personalized demo</button>
+          </div>
         </div>
       </div>
     </header>
 
     <!--CuSTOMERS-->
     <article>
-      <div>
-        <p class="text">
-          More than 3500 costumers <i class="fas fa-heart"></i> Liana Technologies
-        </p>
+      <div class="grid-1">
+        <div>
+          <p class="text">
+            More than 3500 costumers <i class="fas fa-heart"></i> Liana Technologies
+          </p>
+        </div>  
         <div class="grid-4">
           <div >
             <img src="./imagen/marriot.png" alt="eduardo" class="logo2">
@@ -69,12 +83,12 @@
         <div>
           <h3 class="title">Find all you need for effective email marketing</h3>
           <p class="text">
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
           </p>
         </div>
       </div>
@@ -89,10 +103,10 @@
           <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             Nulla ducimus culpa laboriosam doloremque ad eius tempore 
             possimus unde. Quas, ducimus.
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
-            <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li></p>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li>
+            <li class="text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</li></p>
         </div>
         <div class="foto">
           <img src="./imagen/laptop.jpg" alt="" class="foto">
@@ -122,8 +136,8 @@
     <!--LOGIN-->
     <section class="grid-1">
       <div>
-        <h3 class="title">Book a personalized demo</h3>
         <div class="login-box">
+          <h3 class="title">Book a personalized demo</h3>
           <form class="form">
             <label for="username">Name*</label>
             <input type="text">
@@ -138,11 +152,11 @@
             <input type="number">
 
             <label for="region">Region*</label>
-            <input type="checkbox">
-            <input type="checkbox">
-            <input type="checkbox">
+            <input type="checkbox">Middle East
+            <input type="checkbox">Asia
+            <input type="checkbox">Europe
 
-            <label for="message">Message and additional information</label>
+            <label for="message">Message and additional information*</label>
             <textarea></textarea>
 
             <input type="submit" value="Send">
@@ -172,7 +186,7 @@
           <i class="fab fa-linkedin-in"></i>
           <i class="fab fa-youtube"></i>
         </div>
-        <p>&copy; Liana Technologies</p>
+        <p class="text">&copy; Liana Technologies</p>
         <h6>Inprint: Privacy Policy</h6>
       </div>
     </footer>
